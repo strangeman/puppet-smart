@@ -82,6 +82,7 @@ class smart(
 
   case $::osfamily {
     'debian': { }
+    'Debian': { }
     default: {
       fail("Module smart is not supported on ${::operatingsystem}")
     }
